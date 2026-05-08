@@ -1,0 +1,2397 @@
+{
+  "generatedAt": "2026-05-08 19:06:32",
+  "root": {
+    "type": "dir",
+    "title": "文档主页",
+    "path": "",
+    "file": "README.md",
+    "children": [
+      {
+        "type": "dir",
+        "title": "环境篇",
+        "path": "1、环境篇",
+        "file": null,
+        "children": [
+          {
+            "type": "dir",
+            "title": "服务器与域名规划",
+            "path": "1、环境篇/0、服务器与域名规划",
+            "file": null,
+            "children": [
+              {
+                "type": "dir",
+                "title": "服务器与域名规划",
+                "path": "1、环境篇/0、服务器与域名规划/服务器与域名规划",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "服务器与域名规划",
+                    "path": "1、环境篇/0、服务器与域名规划/服务器与域名规划/服务器与域名规划.md",
+                    "file": "1、环境篇/0、服务器与域名规划/服务器与域名规划/服务器与域名规划.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "dir",
+                "title": "JumpServer",
+                "path": "1、环境篇/0、服务器与域名规划/JumpServer",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "Docker 部署 JumpServer",
+                    "path": "1、环境篇/0、服务器与域名规划/JumpServer/Docker 部署 JumpServer.md",
+                    "file": "1、环境篇/0、服务器与域名规划/JumpServer/Docker 部署 JumpServer.md",
+                    "children": []
+                  },
+                  {
+                    "type": "doc",
+                    "title": "k8s 部署 JumpServer",
+                    "path": "1、环境篇/0、服务器与域名规划/JumpServer/k8s 部署 JumpServer.md",
+                    "file": "1、环境篇/0、服务器与域名规划/JumpServer/k8s 部署 JumpServer.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "dir",
+                "title": "OpenVPN",
+                "path": "1、环境篇/0、服务器与域名规划/OpenVPN",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "Docker部署OpenVPN-2026-01-19",
+                    "path": "1、环境篇/0、服务器与域名规划/OpenVPN/Docker部署OpenVPN-2026-01-19.md",
+                    "file": "1、环境篇/0、服务器与域名规划/OpenVPN/Docker部署OpenVPN-2026-01-19.md",
+                    "children": []
+                  },
+                  {
+                    "type": "doc",
+                    "title": "Docker部署OpenVPN",
+                    "path": "1、环境篇/0、服务器与域名规划/OpenVPN/Docker部署OpenVPN.md",
+                    "file": "1、环境篇/0、服务器与域名规划/OpenVPN/Docker部署OpenVPN.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "doc",
+                "title": "服务器与域名规划",
+                "path": "1、环境篇/0、服务器与域名规划/服务器与域名规划.md",
+                "file": "1、环境篇/0、服务器与域名规划/服务器与域名规划.md",
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "dir",
+            "title": "容器编排与管理",
+            "path": "1、环境篇/1、容器编排与管理",
+            "file": null,
+            "children": [
+              {
+                "type": "dir",
+                "title": "k8s集群",
+                "path": "1、环境篇/1、容器编排与管理/0、k8s集群",
+                "file": null,
+                "children": [
+                  {
+                    "type": "dir",
+                    "title": "单主k8s集群",
+                    "path": "1、环境篇/1、容器编排与管理/0、k8s集群/单主k8s集群",
+                    "file": null,
+                    "children": [
+                      {
+                        "type": "doc",
+                        "title": "k8s集群（k8s-1.30.0）",
+                        "path": "1、环境篇/1、容器编排与管理/0、k8s集群/单主k8s集群/k8s集群（k8s-1.30.0）.md",
+                        "file": "1、环境篇/1、容器编排与管理/0、k8s集群/单主k8s集群/k8s集群（k8s-1.30.0）.md",
+                        "children": []
+                      },
+                      {
+                        "type": "doc",
+                        "title": "k8s集群（k8s-1.30.3）",
+                        "path": "1、环境篇/1、容器编排与管理/0、k8s集群/单主k8s集群/k8s集群（k8s-1.30.3）.md",
+                        "file": "1、环境篇/1、容器编排与管理/0、k8s集群/单主k8s集群/k8s集群（k8s-1.30.3）.md",
+                        "children": []
+                      },
+                      {
+                        "type": "doc",
+                        "title": "k8s集群（k8s-1.31.2）",
+                        "path": "1、环境篇/1、容器编排与管理/0、k8s集群/单主k8s集群/k8s集群（k8s-1.31.2）.md",
+                        "file": "1、环境篇/1、容器编排与管理/0、k8s集群/单主k8s集群/k8s集群（k8s-1.31.2）.md",
+                        "children": []
+                      },
+                      {
+                        "type": "doc",
+                        "title": "k8s集群（k8s-1.32.0）",
+                        "path": "1、环境篇/1、容器编排与管理/0、k8s集群/单主k8s集群/k8s集群（k8s-1.32.0）.md",
+                        "file": "1、环境篇/1、容器编排与管理/0、k8s集群/单主k8s集群/k8s集群（k8s-1.32.0）.md",
+                        "children": []
+                      },
+                      {
+                        "type": "doc",
+                        "title": "k8s集群（k8s-1.32.3）",
+                        "path": "1、环境篇/1、容器编排与管理/0、k8s集群/单主k8s集群/k8s集群（k8s-1.32.3）.md",
+                        "file": "1、环境篇/1、容器编排与管理/0、k8s集群/单主k8s集群/k8s集群（k8s-1.32.3）.md",
+                        "children": []
+                      },
+                      {
+                        "type": "doc",
+                        "title": "k8s集群（k8s-1.33.0）",
+                        "path": "1、环境篇/1、容器编排与管理/0、k8s集群/单主k8s集群/k8s集群（k8s-1.33.0）.md",
+                        "file": "1、环境篇/1、容器编排与管理/0、k8s集群/单主k8s集群/k8s集群（k8s-1.33.0）.md",
+                        "children": []
+                      },
+                      {
+                        "type": "doc",
+                        "title": "k8s集群（k8s-1.33.1）",
+                        "path": "1、环境篇/1、容器编排与管理/0、k8s集群/单主k8s集群/k8s集群（k8s-1.33.1）.md",
+                        "file": "1、环境篇/1、容器编排与管理/0、k8s集群/单主k8s集群/k8s集群（k8s-1.33.1）.md",
+                        "children": []
+                      },
+                      {
+                        "type": "doc",
+                        "title": "k8s集群（k8s-1.33.3）",
+                        "path": "1、环境篇/1、容器编排与管理/0、k8s集群/单主k8s集群/k8s集群（k8s-1.33.3）.md",
+                        "file": "1、环境篇/1、容器编排与管理/0、k8s集群/单主k8s集群/k8s集群（k8s-1.33.3）.md",
+                        "children": []
+                      },
+                      {
+                        "type": "doc",
+                        "title": "k8s集群（k8s-1.33.4）",
+                        "path": "1、环境篇/1、容器编排与管理/0、k8s集群/单主k8s集群/k8s集群（k8s-1.33.4）.md",
+                        "file": "1、环境篇/1、容器编排与管理/0、k8s集群/单主k8s集群/k8s集群（k8s-1.33.4）.md",
+                        "children": []
+                      },
+                      {
+                        "type": "doc",
+                        "title": "k8s集群（k8s-v1.35.0）",
+                        "path": "1、环境篇/1、容器编排与管理/0、k8s集群/单主k8s集群/k8s集群（k8s-v1.35.0）.md",
+                        "file": "1、环境篇/1、容器编排与管理/0、k8s集群/单主k8s集群/k8s集群（k8s-v1.35.0）.md",
+                        "children": []
+                      },
+                      {
+                        "type": "doc",
+                        "title": "k8s集群（k8s-v1.35.2）",
+                        "path": "1、环境篇/1、容器编排与管理/0、k8s集群/单主k8s集群/k8s集群（k8s-v1.35.2）.md",
+                        "file": "1、环境篇/1、容器编排与管理/0、k8s集群/单主k8s集群/k8s集群（k8s-v1.35.2）.md",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "dir",
+                    "title": "高可用k8s集群",
+                    "path": "1、环境篇/1、容器编排与管理/0、k8s集群/高可用k8s集群",
+                    "file": null,
+                    "children": [
+                      {
+                        "type": "doc",
+                        "title": "高可用k8s集群（k8s-1.30.0）",
+                        "path": "1、环境篇/1、容器编排与管理/0、k8s集群/高可用k8s集群/高可用k8s集群（k8s-1.30.0）.md",
+                        "file": "1、环境篇/1、容器编排与管理/0、k8s集群/高可用k8s集群/高可用k8s集群（k8s-1.30.0）.md",
+                        "children": []
+                      },
+                      {
+                        "type": "doc",
+                        "title": "高可用k8s集群（k8s-1.32.3）(kube-vip)",
+                        "path": "1、环境篇/1、容器编排与管理/0、k8s集群/高可用k8s集群/高可用k8s集群（k8s-1.32.3）(kube-vip).md",
+                        "file": "1、环境篇/1、容器编排与管理/0、k8s集群/高可用k8s集群/高可用k8s集群（k8s-1.32.3）(kube-vip).md",
+                        "children": []
+                      },
+                      {
+                        "type": "doc",
+                        "title": "高可用k8s集群（k8s-1.33.1）(kube-vip)",
+                        "path": "1、环境篇/1、容器编排与管理/0、k8s集群/高可用k8s集群/高可用k8s集群（k8s-1.33.1）(kube-vip).md",
+                        "file": "1、环境篇/1、容器编排与管理/0、k8s集群/高可用k8s集群/高可用k8s集群（k8s-1.33.1）(kube-vip).md",
+                        "children": []
+                      },
+                      {
+                        "type": "doc",
+                        "title": "高可用k8s集群（k8s-1.33.3）(kube-vip)",
+                        "path": "1、环境篇/1、容器编排与管理/0、k8s集群/高可用k8s集群/高可用k8s集群（k8s-1.33.3）(kube-vip).md",
+                        "file": "1、环境篇/1、容器编排与管理/0、k8s集群/高可用k8s集群/高可用k8s集群（k8s-1.33.3）(kube-vip).md",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "dir",
+                "title": "Helm、Kubens、Kubectl 补全",
+                "path": "1、环境篇/1、容器编排与管理/1、Helm、Kubens、Kubectl 补全",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "helm、kubens、kubectl补全",
+                    "path": "1、环境篇/1、容器编排与管理/1、Helm、Kubens、Kubectl 补全/helm、kubens、kubectl补全.md",
+                    "file": "1、环境篇/1、容器编排与管理/1、Helm、Kubens、Kubectl 补全/helm、kubens、kubectl补全.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "dir",
+                "title": "MetalLB",
+                "path": "1、环境篇/1、容器编排与管理/2、MetalLB",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "MetalLB",
+                    "path": "1、环境篇/1、容器编排与管理/2、MetalLB/MetalLB.md",
+                    "file": "1、环境篇/1、容器编排与管理/2、MetalLB/MetalLB.md",
+                    "children": []
+                  },
+                  {
+                    "type": "doc",
+                    "title": "MetalLB（v0.15.2）",
+                    "path": "1、环境篇/1、容器编排与管理/2、MetalLB/MetalLB（v0.15.2）.md",
+                    "file": "1、环境篇/1、容器编排与管理/2、MetalLB/MetalLB（v0.15.2）.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "dir",
+                "title": "Ingress",
+                "path": "1、环境篇/1、容器编排与管理/3、Ingress",
+                "file": null,
+                "children": [
+                  {
+                    "type": "dir",
+                    "title": "ingress-nginx",
+                    "path": "1、环境篇/1、容器编排与管理/3、Ingress/ingress-nginx",
+                    "file": null,
+                    "children": [
+                      {
+                        "type": "doc",
+                        "title": "希望的是 同一个 Service 下的多个 path 不再创建多个 Route，而是合并成一个 Route，这样每个后端 Service 对应 一条 Route，包含所有 path。",
+                        "path": "1、环境篇/1、容器编排与管理/3、Ingress/ingress-nginx/希望的是 同一个 Service 下的多个 path 不再创建多个 Route，而是合并成一个 Route，这样每个后端 Service 对应 一条 Route，包含所有 path。.md",
+                        "file": "1、环境篇/1、容器编排与管理/3、Ingress/ingress-nginx/希望的是 同一个 Service 下的多个 path 不再创建多个 Route，而是合并成一个 Route，这样每个后端 Service 对应 一条 Route，包含所有 path。.md",
+                        "children": []
+                      },
+                      {
+                        "type": "doc",
+                        "title": "ingress-nginx",
+                        "path": "1、环境篇/1、容器编排与管理/3、Ingress/ingress-nginx/ingress-nginx.md",
+                        "file": "1、环境篇/1、容器编排与管理/3、Ingress/ingress-nginx/ingress-nginx.md",
+                        "children": []
+                      },
+                      {
+                        "type": "doc",
+                        "title": "ingress-nginx（v1.12.3）",
+                        "path": "1、环境篇/1、容器编排与管理/3、Ingress/ingress-nginx/ingress-nginx（v1.12.3）.md",
+                        "file": "1、环境篇/1、容器编排与管理/3、Ingress/ingress-nginx/ingress-nginx（v1.12.3）.md",
+                        "children": []
+                      },
+                      {
+                        "type": "doc",
+                        "title": "nps 内网穿透 k8s-ingress-nginx",
+                        "path": "1、环境篇/1、容器编排与管理/3、Ingress/ingress-nginx/nps 内网穿透 k8s-ingress-nginx.md",
+                        "file": "1、环境篇/1、容器编排与管理/3、Ingress/ingress-nginx/nps 内网穿透 k8s-ingress-nginx.md",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "dir",
+                    "title": "kong",
+                    "path": "1、环境篇/1、容器编排与管理/3、Ingress/kong",
+                    "file": null,
+                    "children": [
+                      {
+                        "type": "doc",
+                        "title": "kong",
+                        "path": "1、环境篇/1、容器编排与管理/3、Ingress/kong/kong.md",
+                        "file": "1、环境篇/1、容器编排与管理/3、Ingress/kong/kong.md",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "dir",
+                    "title": "traefik",
+                    "path": "1、环境篇/1、容器编排与管理/3、Ingress/traefik",
+                    "file": null,
+                    "children": [
+                      {
+                        "type": "doc",
+                        "title": "traefik",
+                        "path": "1、环境篇/1、容器编排与管理/3、Ingress/traefik/traefik.md",
+                        "file": "1、环境篇/1、容器编排与管理/3、Ingress/traefik/traefik.md",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "doc",
+                    "title": "kong",
+                    "path": "1、环境篇/1、容器编排与管理/3、Ingress/kong.md",
+                    "file": "1、环境篇/1、容器编排与管理/3、Ingress/kong.md",
+                    "children": []
+                  },
+                  {
+                    "type": "doc",
+                    "title": "traefik",
+                    "path": "1、环境篇/1、容器编排与管理/3、Ingress/traefik.md",
+                    "file": "1、环境篇/1、容器编排与管理/3、Ingress/traefik.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "dir",
+                "title": "cert-manager",
+                "path": "1、环境篇/1、容器编排与管理/4、cert-manager",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "cert-manager",
+                    "path": "1、环境篇/1、容器编排与管理/4、cert-manager/cert-manager.md",
+                    "file": "1、环境篇/1、容器编排与管理/4、cert-manager/cert-manager.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "dir",
+                "title": "istio",
+                "path": "1、环境篇/1、容器编排与管理/5、istio",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "istio-1.26.1",
+                    "path": "1、环境篇/1、容器编排与管理/5、istio/istio-1.26.1.md",
+                    "file": "1、环境篇/1、容器编排与管理/5、istio/istio-1.26.1.md",
+                    "children": []
+                  },
+                  {
+                    "type": "doc",
+                    "title": "istio",
+                    "path": "1、环境篇/1、容器编排与管理/5、istio/istio.md",
+                    "file": "1、环境篇/1、容器编排与管理/5、istio/istio.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "dir",
+                "title": "Argo-Rollouts",
+                "path": "1、环境篇/1、容器编排与管理/6、Argo-Rollouts",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "Argo Rollouts",
+                    "path": "1、环境篇/1、容器编排与管理/6、Argo-Rollouts/Argo Rollouts.md",
+                    "file": "1、环境篇/1、容器编排与管理/6、Argo-Rollouts/Argo Rollouts.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "dir",
+                "title": "metrics-server",
+                "path": "1、环境篇/1、容器编排与管理/7、metrics-server",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "metrics-server",
+                    "path": "1、环境篇/1、容器编排与管理/7、metrics-server/metrics-server.md",
+                    "file": "1、环境篇/1、容器编排与管理/7、metrics-server/metrics-server.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "dir",
+                "title": "kube-state-metrics",
+                "path": "1、环境篇/1、容器编排与管理/8、kube-state-metrics",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "kube-state-metrics",
+                    "path": "1、环境篇/1、容器编排与管理/8、kube-state-metrics/kube-state-metrics.md",
+                    "file": "1、环境篇/1、容器编排与管理/8、kube-state-metrics/kube-state-metrics.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "dir",
+                "title": "vertical-pod-autoscaler",
+                "path": "1、环境篇/1、容器编排与管理/9、vertical-pod-autoscaler",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "vertical-pod-autoscaler",
+                    "path": "1、环境篇/1、容器编排与管理/9、vertical-pod-autoscaler/vertical-pod-autoscaler.md",
+                    "file": "1、环境篇/1、容器编排与管理/9、vertical-pod-autoscaler/vertical-pod-autoscaler.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "dir",
+                "title": "nfs-storage",
+                "path": "1、环境篇/1、容器编排与管理/10、nfs-storage",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "nfs-storage",
+                    "path": "1、环境篇/1、容器编排与管理/10、nfs-storage/nfs-storage.md",
+                    "file": "1、环境篇/1、容器编排与管理/10、nfs-storage/nfs-storage.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "dir",
+                "title": "kuboard-v3",
+                "path": "1、环境篇/1、容器编排与管理/11、kuboard-v3",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "kuboard-v3",
+                    "path": "1、环境篇/1、容器编排与管理/11、kuboard-v3/kuboard-v3.md",
+                    "file": "1、环境篇/1、容器编排与管理/11、kuboard-v3/kuboard-v3.md",
+                    "children": []
+                  },
+                  {
+                    "type": "doc",
+                    "title": "kuboard-v4",
+                    "path": "1、环境篇/1、容器编排与管理/11、kuboard-v3/kuboard-v4.md",
+                    "file": "1、环境篇/1、容器编排与管理/11、kuboard-v3/kuboard-v4.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "dir",
+                "title": "Velero + minio（备份容灾）",
+                "path": "1、环境篇/1、容器编排与管理/12、Velero + minio（备份容灾）",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "Velero + minio（备份容灾）",
+                    "path": "1、环境篇/1、容器编排与管理/12、Velero + minio（备份容灾）/Velero + minio（备份容灾）.md",
+                    "file": "1、环境篇/1、容器编排与管理/12、Velero + minio（备份容灾）/Velero + minio（备份容灾）.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "dir",
+                "title": "k8s集群证书更新",
+                "path": "1、环境篇/1、容器编排与管理/13、k8s集群证书更新",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "k8s集群证书更新",
+                    "path": "1、环境篇/1、容器编排与管理/13、k8s集群证书更新/k8s集群证书更新.md",
+                    "file": "1、环境篇/1、容器编排与管理/13、k8s集群证书更新/k8s集群证书更新.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "dir",
+                "title": "升级 k8s 集群（kubeadm）",
+                "path": "1、环境篇/1、容器编排与管理/14、升级 k8s 集群（kubeadm）",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "升级 k8s 集群（kubeadm）",
+                    "path": "1、环境篇/1、容器编排与管理/14、升级 k8s 集群（kubeadm）/升级 k8s 集群（kubeadm）.md",
+                    "file": "1、环境篇/1、容器编排与管理/14、升级 k8s 集群（kubeadm）/升级 k8s 集群（kubeadm）.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "dir",
+                "title": "ingress-tls",
+                "path": "1、环境篇/1、容器编排与管理/15、ingress-tls",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "ingress-tls",
+                    "path": "1、环境篇/1、容器编排与管理/15、ingress-tls/ingress-tls.md",
+                    "file": "1、环境篇/1、容器编排与管理/15、ingress-tls/ingress-tls.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "dir",
+                "title": "image-secret",
+                "path": "1、环境篇/1、容器编排与管理/16、image-secret",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "image-secret",
+                    "path": "1、环境篇/1、容器编排与管理/16、image-secret/image-secret.md",
+                    "file": "1、环境篇/1、容器编排与管理/16、image-secret/image-secret.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "dir",
+                "title": "k8s安装firefox",
+                "path": "1、环境篇/1、容器编排与管理/17、k8s安装firefox",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "k8s安装firefox",
+                    "path": "1、环境篇/1、容器编排与管理/17、k8s安装firefox/k8s安装firefox.md",
+                    "file": "1、环境篇/1、容器编排与管理/17、k8s安装firefox/k8s安装firefox.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "dir",
+                "title": "k8s-cronjob",
+                "path": "1、环境篇/1、容器编排与管理/18、k8s-cronjob",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "k8s-cronjob",
+                    "path": "1、环境篇/1、容器编排与管理/18、k8s-cronjob/k8s-cronjob.md",
+                    "file": "1、环境篇/1、容器编排与管理/18、k8s-cronjob/k8s-cronjob.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "dir",
+                "title": "descheduler",
+                "path": "1、环境篇/1、容器编排与管理/19、descheduler",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "descheduler",
+                    "path": "1、环境篇/1、容器编排与管理/19、descheduler/descheduler.md",
+                    "file": "1、环境篇/1、容器编排与管理/19、descheduler/descheduler.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "doc",
+                "title": "Helm、Kubens、Kubectl 补全",
+                "path": "1、环境篇/1、容器编排与管理/1、Helm、Kubens、Kubectl 补全.md",
+                "file": "1、环境篇/1、容器编排与管理/1、Helm、Kubens、Kubectl 补全.md",
+                "children": []
+              },
+              {
+                "type": "doc",
+                "title": "cert-manager",
+                "path": "1、环境篇/1、容器编排与管理/4、cert-manager.md",
+                "file": "1、环境篇/1、容器编排与管理/4、cert-manager.md",
+                "children": []
+              },
+              {
+                "type": "doc",
+                "title": "Argo-Rollouts",
+                "path": "1、环境篇/1、容器编排与管理/6、Argo-Rollouts.md",
+                "file": "1、环境篇/1、容器编排与管理/6、Argo-Rollouts.md",
+                "children": []
+              },
+              {
+                "type": "doc",
+                "title": "metrics-server",
+                "path": "1、环境篇/1、容器编排与管理/7、metrics-server.md",
+                "file": "1、环境篇/1、容器编排与管理/7、metrics-server.md",
+                "children": []
+              },
+              {
+                "type": "doc",
+                "title": "kube-state-metrics",
+                "path": "1、环境篇/1、容器编排与管理/8、kube-state-metrics.md",
+                "file": "1、环境篇/1、容器编排与管理/8、kube-state-metrics.md",
+                "children": []
+              },
+              {
+                "type": "doc",
+                "title": "vertical-pod-autoscaler",
+                "path": "1、环境篇/1、容器编排与管理/9、vertical-pod-autoscaler.md",
+                "file": "1、环境篇/1、容器编排与管理/9、vertical-pod-autoscaler.md",
+                "children": []
+              },
+              {
+                "type": "doc",
+                "title": "nfs-storage",
+                "path": "1、环境篇/1、容器编排与管理/10、nfs-storage.md",
+                "file": "1、环境篇/1、容器编排与管理/10、nfs-storage.md",
+                "children": []
+              },
+              {
+                "type": "doc",
+                "title": "kuboard-v3",
+                "path": "1、环境篇/1、容器编排与管理/11、kuboard-v3.md",
+                "file": "1、环境篇/1、容器编排与管理/11、kuboard-v3.md",
+                "children": []
+              },
+              {
+                "type": "doc",
+                "title": "Velero + minio（备份容灾）",
+                "path": "1、环境篇/1、容器编排与管理/12、Velero + minio（备份容灾）.md",
+                "file": "1、环境篇/1、容器编排与管理/12、Velero + minio（备份容灾）.md",
+                "children": []
+              },
+              {
+                "type": "doc",
+                "title": "k8s集群证书更新",
+                "path": "1、环境篇/1、容器编排与管理/13、k8s集群证书更新.md",
+                "file": "1、环境篇/1、容器编排与管理/13、k8s集群证书更新.md",
+                "children": []
+              },
+              {
+                "type": "doc",
+                "title": "升级 k8s 集群（kubeadm）",
+                "path": "1、环境篇/1、容器编排与管理/14、升级 k8s 集群（kubeadm）.md",
+                "file": "1、环境篇/1、容器编排与管理/14、升级 k8s 集群（kubeadm）.md",
+                "children": []
+              },
+              {
+                "type": "doc",
+                "title": "ingress-tls",
+                "path": "1、环境篇/1、容器编排与管理/15、ingress-tls.md",
+                "file": "1、环境篇/1、容器编排与管理/15、ingress-tls.md",
+                "children": []
+              },
+              {
+                "type": "doc",
+                "title": "image-secret",
+                "path": "1、环境篇/1、容器编排与管理/16、image-secret.md",
+                "file": "1、环境篇/1、容器编排与管理/16、image-secret.md",
+                "children": []
+              },
+              {
+                "type": "doc",
+                "title": "k8s安装firefox",
+                "path": "1、环境篇/1、容器编排与管理/17、k8s安装firefox.md",
+                "file": "1、环境篇/1、容器编排与管理/17、k8s安装firefox.md",
+                "children": []
+              },
+              {
+                "type": "doc",
+                "title": "k8s-cronjob",
+                "path": "1、环境篇/1、容器编排与管理/18、k8s-cronjob.md",
+                "file": "1、环境篇/1、容器编排与管理/18、k8s-cronjob.md",
+                "children": []
+              },
+              {
+                "type": "doc",
+                "title": "descheduler",
+                "path": "1、环境篇/1、容器编排与管理/19、descheduler.md",
+                "file": "1、环境篇/1、容器编排与管理/19、descheduler.md",
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "dir",
+            "title": "代码仓库",
+            "path": "1、环境篇/2、代码仓库",
+            "file": null,
+            "children": [
+              {
+                "type": "dir",
+                "title": "docker（推荐）",
+                "path": "1、环境篇/2、代码仓库/1、docker（推荐）",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "gitlab",
+                    "path": "1、环境篇/2、代码仓库/1、docker（推荐）/13、gitlab.md",
+                    "file": "1、环境篇/2、代码仓库/1、docker（推荐）/13、gitlab.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "dir",
+                "title": "k8s手撕yml方式安装gitlab-ce",
+                "path": "1、环境篇/2、代码仓库/2、k8s手撕yml方式安装gitlab-ce",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "k8s手撕yml方式安装gitlab-ce",
+                    "path": "1、环境篇/2、代码仓库/2、k8s手撕yml方式安装gitlab-ce/k8s手撕yml方式安装gitlab-ce.md",
+                    "file": "1、环境篇/2、代码仓库/2、k8s手撕yml方式安装gitlab-ce/k8s手撕yml方式安装gitlab-ce.md",
+                    "children": []
+                  },
+                  {
+                    "type": "doc",
+                    "title": "k8s手撕yml方式安装gitlab-ce（Argo-Rollout）",
+                    "path": "1、环境篇/2、代码仓库/2、k8s手撕yml方式安装gitlab-ce/k8s手撕yml方式安装gitlab-ce（Argo-Rollout）.md",
+                    "file": "1、环境篇/2、代码仓库/2、k8s手撕yml方式安装gitlab-ce/k8s手撕yml方式安装gitlab-ce（Argo-Rollout）.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "dir",
+                "title": "gitlab备份、还原、迁移",
+                "path": "1、环境篇/2、代码仓库/3、gitlab备份、还原、迁移",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "备份还原",
+                    "path": "1、环境篇/2、代码仓库/3、gitlab备份、还原、迁移/备份还原.md",
+                    "file": "1、环境篇/2、代码仓库/3、gitlab备份、还原、迁移/备份还原.md",
+                    "children": []
+                  },
+                  {
+                    "type": "doc",
+                    "title": "gitlab的备份、还原、迁移",
+                    "path": "1、环境篇/2、代码仓库/3、gitlab备份、还原、迁移/gitlab的备份、还原、迁移.md",
+                    "file": "1、环境篇/2、代码仓库/3、gitlab备份、还原、迁移/gitlab的备份、还原、迁移.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "dir",
+                "title": "代码分支管理",
+                "path": "1、环境篇/2、代码仓库/4、代码分支管理",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "代码分支管理",
+                    "path": "1、环境篇/2、代码仓库/4、代码分支管理/代码分支管理.md",
+                    "file": "1、环境篇/2、代码仓库/4、代码分支管理/代码分支管理.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "dir",
+                "title": "智能运维仓库管理",
+                "path": "1、环境篇/2、代码仓库/5、智能运维仓库管理",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "智能运维仓库管理",
+                    "path": "1、环境篇/2、代码仓库/5、智能运维仓库管理/5、智能运维仓库管理.md",
+                    "file": "1、环境篇/2、代码仓库/5、智能运维仓库管理/5、智能运维仓库管理.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "doc",
+                "title": "代码分支管理",
+                "path": "1、环境篇/2、代码仓库/4、代码分支管理.md",
+                "file": "1、环境篇/2、代码仓库/4、代码分支管理.md",
+                "children": []
+              },
+              {
+                "type": "doc",
+                "title": "智能运维仓库管理",
+                "path": "1、环境篇/2、代码仓库/5、智能运维仓库管理.md",
+                "file": "1、环境篇/2、代码仓库/5、智能运维仓库管理.md",
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "dir",
+            "title": "容器镜像仓库",
+            "path": "1、环境篇/3、容器镜像仓库",
+            "file": null,
+            "children": [
+              {
+                "type": "dir",
+                "title": "harbor",
+                "path": "1、环境篇/3、容器镜像仓库/1、harbor",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "harbor",
+                    "path": "1、环境篇/3、容器镜像仓库/1、harbor/14、harbor.md",
+                    "file": "1、环境篇/3、容器镜像仓库/1、harbor/14、harbor.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "dir",
+                "title": "nexus",
+                "path": "1、环境篇/3、容器镜像仓库/2、nexus",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "Docke部署Nexus3",
+                    "path": "1、环境篇/3、容器镜像仓库/2、nexus/Docke部署Nexus3.md",
+                    "file": "1、环境篇/3、容器镜像仓库/2、nexus/Docke部署Nexus3.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "dir",
+                "title": "容器镜像服务（公有云）",
+                "path": "1、环境篇/3、容器镜像仓库/3、容器镜像服务（公有云）",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "容器镜像服务（公有云）",
+                    "path": "1、环境篇/3、容器镜像仓库/3、容器镜像服务（公有云）/3、容器镜像服务（公有云）.md",
+                    "file": "1、环境篇/3、容器镜像仓库/3、容器镜像服务（公有云）/3、容器镜像服务（公有云）.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "doc",
+                "title": "harbor",
+                "path": "1、环境篇/3、容器镜像仓库/1、harbor.md",
+                "file": "1、环境篇/3、容器镜像仓库/1、harbor.md",
+                "children": []
+              },
+              {
+                "type": "doc",
+                "title": "容器镜像服务（公有云）",
+                "path": "1、环境篇/3、容器镜像仓库/3、容器镜像服务（公有云）.md",
+                "file": "1、环境篇/3、容器镜像仓库/3、容器镜像服务（公有云）.md",
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "dir",
+            "title": "弹性构建池（动态创建和销毁）",
+            "path": "1、环境篇/4、弹性构建池（动态创建和销毁）",
+            "file": null,
+            "children": [
+              {
+                "type": "dir",
+                "title": "代码扫描",
+                "path": "1、环境篇/4、弹性构建池（动态创建和销毁）/代码扫描",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "k8s手撕yml方式安装sonarqube",
+                    "path": "1、环境篇/4、弹性构建池（动态创建和销毁）/代码扫描/k8s手撕yml方式安装sonarqube.md",
+                    "file": "1、环境篇/4、弹性构建池（动态创建和销毁）/代码扫描/k8s手撕yml方式安装sonarqube.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "dir",
+                "title": "Jenkins",
+                "path": "1、环境篇/4、弹性构建池（动态创建和销毁）/Jenkins",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "Jenkins",
+                    "path": "1、环境篇/4、弹性构建池（动态创建和销毁）/Jenkins/Jenkins.md",
+                    "file": "1、环境篇/4、弹性构建池（动态创建和销毁）/Jenkins/Jenkins.md",
+                    "children": []
+                  },
+                  {
+                    "type": "doc",
+                    "title": "Jenkins（Argo-Rollout）",
+                    "path": "1、环境篇/4、弹性构建池（动态创建和销毁）/Jenkins/Jenkins（Argo-Rollout）.md",
+                    "file": "1、环境篇/4、弹性构建池（动态创建和销毁）/Jenkins/Jenkins（Argo-Rollout）.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "dir",
+                "title": "Pipeline",
+                "path": "1、环境篇/4、弹性构建池（动态创建和销毁）/Pipeline",
+                "file": "1、环境篇/4、弹性构建池（动态创建和销毁）/Pipeline/README.md",
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "dir",
+            "title": "监控报警系统",
+            "path": "1、环境篇/6、监控报警系统",
+            "file": null,
+            "children": [
+              {
+                "type": "dir",
+                "title": "k8s手撕yml方式",
+                "path": "1、环境篇/6、监控报警系统/1、k8s手撕yml方式",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "k8s 手撕yml方式安装 prometheus + grafana + alertmanager",
+                    "path": "1、环境篇/6、监控报警系统/1、k8s手撕yml方式/k8s 手撕yml方式安装 prometheus + grafana + alertmanager.md",
+                    "file": "1、环境篇/6、监控报警系统/1、k8s手撕yml方式/k8s 手撕yml方式安装 prometheus + grafana + alertmanager.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "dir",
+                "title": "kube-Prometheus",
+                "path": "1、环境篇/6、监控报警系统/2、kube-Prometheus",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "部署 kube-prometheus（v0.13.0版本）",
+                    "path": "1、环境篇/6、监控报警系统/2、kube-Prometheus/部署 kube-prometheus（v0.13.0版本）.md",
+                    "file": "1、环境篇/6、监控报警系统/2、kube-Prometheus/部署 kube-prometheus（v0.13.0版本）.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "dir",
+                "title": "exports接入",
+                "path": "1、环境篇/6、监控报警系统/3、exports接入",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "elasticsearch-exporter",
+                    "path": "1、环境篇/6、监控报警系统/3、exports接入/elasticsearch-exporter.md",
+                    "file": "1、环境篇/6、监控报警系统/3、exports接入/elasticsearch-exporter.md",
+                    "children": []
+                  },
+                  {
+                    "type": "doc",
+                    "title": "kafka-exporter",
+                    "path": "1、环境篇/6、监控报警系统/3、exports接入/kafka-exporter.md",
+                    "file": "1、环境篇/6、监控报警系统/3、exports接入/kafka-exporter.md",
+                    "children": []
+                  },
+                  {
+                    "type": "doc",
+                    "title": "mongodb-exporter",
+                    "path": "1、环境篇/6、监控报警系统/3、exports接入/mongodb-exporter.md",
+                    "file": "1、环境篇/6、监控报警系统/3、exports接入/mongodb-exporter.md",
+                    "children": []
+                  },
+                  {
+                    "type": "doc",
+                    "title": "mysql-exporter",
+                    "path": "1、环境篇/6、监控报警系统/3、exports接入/mysql-exporter.md",
+                    "file": "1、环境篇/6、监控报警系统/3、exports接入/mysql-exporter.md",
+                    "children": []
+                  },
+                  {
+                    "type": "doc",
+                    "title": "postgres-exporter",
+                    "path": "1、环境篇/6、监控报警系统/3、exports接入/postgres-exporter.md",
+                    "file": "1、环境篇/6、监控报警系统/3、exports接入/postgres-exporter.md",
+                    "children": []
+                  },
+                  {
+                    "type": "doc",
+                    "title": "rabbitmq-exporter",
+                    "path": "1、环境篇/6、监控报警系统/3、exports接入/rabbitmq-exporter.md",
+                    "file": "1、环境篇/6、监控报警系统/3、exports接入/rabbitmq-exporter.md",
+                    "children": []
+                  },
+                  {
+                    "type": "doc",
+                    "title": "redis-exporter",
+                    "path": "1、环境篇/6、监控报警系统/3、exports接入/redis-exporter.md",
+                    "file": "1、环境篇/6、监控报警系统/3、exports接入/redis-exporter.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "dir",
+                "title": "监控业务容器",
+                "path": "1、环境篇/6、监控报警系统/4、监控业务容器",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "Java",
+                    "path": "1、环境篇/6、监控报警系统/4、监控业务容器/Java.md",
+                    "file": "1、环境篇/6、监控报警系统/4、监控业务容器/Java.md",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "dir",
+            "title": "日志分析系统",
+            "path": "1、环境篇/7、日志分析系统",
+            "file": null,
+            "children": [
+              {
+                "type": "dir",
+                "title": "docker安装elk",
+                "path": "1、环境篇/7、日志分析系统/docker安装elk",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "docker安装elk",
+                    "path": "1、环境篇/7、日志分析系统/docker安装elk/docker安装elk.md",
+                    "file": "1、环境篇/7、日志分析系统/docker安装elk/docker安装elk.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "dir",
+                "title": "ES-Kibana-Logstash-Kafka-Filebeat",
+                "path": "1、环境篇/7、日志分析系统/ES-Kibana-Logstash-Kafka-Filebeat",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "ELK",
+                    "path": "1、环境篇/7、日志分析系统/ES-Kibana-Logstash-Kafka-Filebeat/ELK.md",
+                    "file": "1、环境篇/7、日志分析系统/ES-Kibana-Logstash-Kafka-Filebeat/ELK.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "dir",
+                "title": "ES-Kibana-Logstash-Kafka-ilogtail",
+                "path": "1、环境篇/7、日志分析系统/ES-Kibana-Logstash-Kafka-ilogtail",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "ELK",
+                    "path": "1、环境篇/7、日志分析系统/ES-Kibana-Logstash-Kafka-ilogtail/ELK.md",
+                    "file": "1、环境篇/7、日志分析系统/ES-Kibana-Logstash-Kafka-ilogtail/ELK.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "doc",
+                "title": "docker安装elk",
+                "path": "1、环境篇/7、日志分析系统/docker安装elk.md",
+                "file": "1、环境篇/7、日志分析系统/docker安装elk.md",
+                "children": []
+              },
+              {
+                "type": "doc",
+                "title": "k8s安装filebeat",
+                "path": "1、环境篇/7、日志分析系统/k8s安装filebeat.md",
+                "file": "1、环境篇/7、日志分析系统/k8s安装filebeat.md",
+                "children": []
+              },
+              {
+                "type": "doc",
+                "title": "k8s安装logstash",
+                "path": "1、环境篇/7、日志分析系统/k8s安装logstash.md",
+                "file": "1、环境篇/7、日志分析系统/k8s安装logstash.md",
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "dir",
+            "title": "应用程序性能监控系统",
+            "path": "1、环境篇/8、应用程序性能监控系统",
+            "file": null,
+            "children": [
+              {
+                "type": "dir",
+                "title": "k8s部署skywalking",
+                "path": "1、环境篇/8、应用程序性能监控系统/k8s部署skywalking",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "k8s部署skywalking",
+                    "path": "1、环境篇/8、应用程序性能监控系统/k8s部署skywalking/k8s部署skywalking.md",
+                    "file": "1、环境篇/8、应用程序性能监控系统/k8s部署skywalking/k8s部署skywalking.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "doc",
+                "title": "k8s部署skywalking",
+                "path": "1、环境篇/8、应用程序性能监控系统/k8s部署skywalking.md",
+                "file": "1、环境篇/8、应用程序性能监控系统/k8s部署skywalking.md",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "dir",
+        "title": "组件篇",
+        "path": "2、组件篇",
+        "file": null,
+        "children": [
+          {
+            "type": "dir",
+            "title": "负载均衡器、Web服务器、反向代理",
+            "path": "2、组件篇/1、负载均衡器、Web服务器、反向代理",
+            "file": null,
+            "children": [
+              {
+                "type": "doc",
+                "title": "k8s部署skywalking",
+                "path": "2、组件篇/1、负载均衡器、Web服务器、反向代理/k8s部署skywalking.md",
+                "file": "2、组件篇/1、负载均衡器、Web服务器、反向代理/k8s部署skywalking.md",
+                "children": []
+              },
+              {
+                "type": "doc",
+                "title": "k8s手撕yml方式安装Nginx",
+                "path": "2、组件篇/1、负载均衡器、Web服务器、反向代理/k8s手撕yml方式安装Nginx.md",
+                "file": "2、组件篇/1、负载均衡器、Web服务器、反向代理/k8s手撕yml方式安装Nginx.md",
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "dir",
+            "title": "MySQL 集群",
+            "path": "2、组件篇/2、MySQL 集群",
+            "file": null,
+            "children": [
+              {
+                "type": "dir",
+                "title": "二进制方式",
+                "path": "2、组件篇/2、MySQL 集群/1、二进制方式",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "二进制方式",
+                    "path": "2、组件篇/2、MySQL 集群/1、二进制方式/二进制方式.md",
+                    "file": "2、组件篇/2、MySQL 集群/1、二进制方式/二进制方式.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "dir",
+                "title": "源码编译方式",
+                "path": "2、组件篇/2、MySQL 集群/1、源码编译方式",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "二进制方式",
+                    "path": "2、组件篇/2、MySQL 集群/1、源码编译方式/二进制方式.md",
+                    "file": "2、组件篇/2、MySQL 集群/1、源码编译方式/二进制方式.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "dir",
+                "title": "包管理工具方式",
+                "path": "2、组件篇/2、MySQL 集群/2、包管理工具方式",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "二进制方式",
+                    "path": "2、组件篇/2、MySQL 集群/2、包管理工具方式/二进制方式.md",
+                    "file": "2、组件篇/2、MySQL 集群/2、包管理工具方式/二进制方式.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "dir",
+                "title": "docker方式",
+                "path": "2、组件篇/2、MySQL 集群/2、docker方式",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "docker方式",
+                    "path": "2、组件篇/2、MySQL 集群/2、docker方式/docker方式.md",
+                    "file": "2、组件篇/2、MySQL 集群/2、docker方式/docker方式.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "dir",
+                "title": "二进制方式",
+                "path": "2、组件篇/2、MySQL 集群/3、二进制方式",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "二进制方式",
+                    "path": "2、组件篇/2、MySQL 集群/3、二进制方式/二进制方式.md",
+                    "file": "2、组件篇/2、MySQL 集群/3、二进制方式/二进制方式.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "dir",
+                "title": "k8s手撕yml方式",
+                "path": "2、组件篇/2、MySQL 集群/3、k8s手撕yml方式",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "k8s手撕yml方式",
+                    "path": "2、组件篇/2、MySQL 集群/3、k8s手撕yml方式/k8s手撕yml方式.md",
+                    "file": "2、组件篇/2、MySQL 集群/3、k8s手撕yml方式/k8s手撕yml方式.md",
+                    "children": []
+                  },
+                  {
+                    "type": "doc",
+                    "title": "k8s手撕yml方式部署mysql（一主多从）",
+                    "path": "2、组件篇/2、MySQL 集群/3、k8s手撕yml方式/k8s手撕yml方式部署mysql（一主多从）.md",
+                    "file": "2、组件篇/2、MySQL 集群/3、k8s手撕yml方式/k8s手撕yml方式部署mysql（一主多从）.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "dir",
+                "title": "docker方式",
+                "path": "2、组件篇/2、MySQL 集群/4、docker方式",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "docker方式",
+                    "path": "2、组件篇/2、MySQL 集群/4、docker方式/docker方式.md",
+                    "file": "2、组件篇/2、MySQL 集群/4、docker方式/docker方式.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "dir",
+                "title": "k8s手撕yml方式",
+                "path": "2、组件篇/2、MySQL 集群/5、k8s手撕yml方式",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "k8s手撕yml方式",
+                    "path": "2、组件篇/2、MySQL 集群/5、k8s手撕yml方式/k8s手撕yml方式.md",
+                    "file": "2、组件篇/2、MySQL 集群/5、k8s手撕yml方式/k8s手撕yml方式.md",
+                    "children": []
+                  },
+                  {
+                    "type": "doc",
+                    "title": "k8s手撕yml方式部署mysql一主多从",
+                    "path": "2、组件篇/2、MySQL 集群/5、k8s手撕yml方式/k8s手撕yml方式部署mysql一主多从.md",
+                    "file": "2、组件篇/2、MySQL 集群/5、k8s手撕yml方式/k8s手撕yml方式部署mysql一主多从.md",
+                    "children": []
+                  },
+                  {
+                    "type": "doc",
+                    "title": "mysql监控",
+                    "path": "2、组件篇/2、MySQL 集群/5、k8s手撕yml方式/mysql监控.md",
+                    "file": "2、组件篇/2、MySQL 集群/5、k8s手撕yml方式/mysql监控.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "dir",
+                "title": "helm方式",
+                "path": "2、组件篇/2、MySQL 集群/6、helm方式",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "二进制方式",
+                    "path": "2、组件篇/2、MySQL 集群/6、helm方式/二进制方式.md",
+                    "file": "2、组件篇/2、MySQL 集群/6、helm方式/二进制方式.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "doc",
+                "title": "二进制方式",
+                "path": "2、组件篇/2、MySQL 集群/1、二进制方式.md",
+                "file": "2、组件篇/2、MySQL 集群/1、二进制方式.md",
+                "children": []
+              },
+              {
+                "type": "doc",
+                "title": "docker方式",
+                "path": "2、组件篇/2、MySQL 集群/2、docker方式.md",
+                "file": "2、组件篇/2、MySQL 集群/2、docker方式.md",
+                "children": []
+              },
+              {
+                "type": "doc",
+                "title": "docker方式",
+                "path": "2、组件篇/2、MySQL 集群/4、docker方式.md",
+                "file": "2、组件篇/2、MySQL 集群/4、docker方式.md",
+                "children": []
+              },
+              {
+                "type": "doc",
+                "title": "二进制方式",
+                "path": "2、组件篇/2、MySQL 集群/二进制方式.md",
+                "file": "2、组件篇/2、MySQL 集群/二进制方式.md",
+                "children": []
+              },
+              {
+                "type": "doc",
+                "title": "MySQL备份脚本",
+                "path": "2、组件篇/2、MySQL 集群/MySQL备份脚本.md",
+                "file": "2、组件篇/2、MySQL 集群/MySQL备份脚本.md",
+                "children": []
+              },
+              {
+                "type": "doc",
+                "title": "MySQL监控",
+                "path": "2、组件篇/2、MySQL 集群/MySQL监控.md",
+                "file": "2、组件篇/2、MySQL 集群/MySQL监控.md",
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "dir",
+            "title": "服务注册与发现",
+            "path": "2、组件篇/3、服务注册与发现",
+            "file": null,
+            "children": [
+              {
+                "type": "doc",
+                "title": "k8s部署单机nacos2.3.2版本开启鉴权功能",
+                "path": "2、组件篇/3、服务注册与发现/k8s部署单机nacos2.3.2版本开启鉴权功能.md",
+                "file": "2、组件篇/3、服务注册与发现/k8s部署单机nacos2.3.2版本开启鉴权功能.md",
+                "children": []
+              },
+              {
+                "type": "doc",
+                "title": "k8s部署nacos-3.1.0",
+                "path": "2、组件篇/3、服务注册与发现/k8s部署nacos-3.1.0.md",
+                "file": "2、组件篇/3、服务注册与发现/k8s部署nacos-3.1.0.md",
+                "children": []
+              },
+              {
+                "type": "doc",
+                "title": "nacos-2.1.0",
+                "path": "2、组件篇/3、服务注册与发现/nacos-2.1.0.md",
+                "file": "2、组件篇/3、服务注册与发现/nacos-2.1.0.md",
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "dir",
+            "title": "分布式缓存",
+            "path": "2、组件篇/4、分布式缓存",
+            "file": null,
+            "children": [
+              {
+                "type": "doc",
+                "title": "redis-7.2.4",
+                "path": "2、组件篇/4、分布式缓存/redis-7.2.4.md",
+                "file": "2、组件篇/4、分布式缓存/redis-7.2.4.md",
+                "children": []
+              },
+              {
+                "type": "doc",
+                "title": "Redis备份脚本",
+                "path": "2、组件篇/4、分布式缓存/Redis备份脚本.md",
+                "file": "2、组件篇/4、分布式缓存/Redis备份脚本.md",
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "dir",
+            "title": "分布式文件存储数据库",
+            "path": "2、组件篇/5、分布式文件存储数据库",
+            "file": null,
+            "children": [
+              {
+                "type": "doc",
+                "title": "mongo-7.0.8",
+                "path": "2、组件篇/5、分布式文件存储数据库/mongo-7.0.8.md",
+                "file": "2、组件篇/5、分布式文件存储数据库/mongo-7.0.8.md",
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "dir",
+            "title": "消息队列",
+            "path": "2、组件篇/6、消息队列",
+            "file": null,
+            "children": [
+              {
+                "type": "dir",
+                "title": "RocketMQ",
+                "path": "2、组件篇/6、消息队列/1、RocketMQ",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "k8s部署rocketmq-operator-0.3.0（rocketmq-v5.1.4）",
+                    "path": "2、组件篇/6、消息队列/1、RocketMQ/k8s部署rocketmq-operator-0.3.0（rocketmq-v5.1.4）.md",
+                    "file": "2、组件篇/6、消息队列/1、RocketMQ/k8s部署rocketmq-operator-0.3.0（rocketmq-v5.1.4）.md",
+                    "children": []
+                  },
+                  {
+                    "type": "doc",
+                    "title": "k8s手撕yml方式安装rocketmq",
+                    "path": "2、组件篇/6、消息队列/1、RocketMQ/k8s手撕yml方式安装rocketmq.md",
+                    "file": "2、组件篇/6、消息队列/1、RocketMQ/k8s手撕yml方式安装rocketmq.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "dir",
+                "title": "Kafka",
+                "path": "2、组件篇/6、消息队列/2、Kafka",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "k8s部署kafka （单节点）",
+                    "path": "2、组件篇/6、消息队列/2、Kafka/k8s部署kafka （单节点）.md",
+                    "file": "2、组件篇/6、消息队列/2、Kafka/k8s部署kafka （单节点）.md",
+                    "children": []
+                  },
+                  {
+                    "type": "doc",
+                    "title": "k8s部署kafka-ui",
+                    "path": "2、组件篇/6、消息队列/2、Kafka/k8s部署kafka-ui.md",
+                    "file": "2、组件篇/6、消息队列/2、Kafka/k8s部署kafka-ui.md",
+                    "children": []
+                  },
+                  {
+                    "type": "doc",
+                    "title": "k8s部署kafka集群",
+                    "path": "2、组件篇/6、消息队列/2、Kafka/k8s部署kafka集群.md",
+                    "file": "2、组件篇/6、消息队列/2、Kafka/k8s部署kafka集群.md",
+                    "children": []
+                  },
+                  {
+                    "type": "doc",
+                    "title": "k8s部署kafka集群(helm版)",
+                    "path": "2、组件篇/6、消息队列/2、Kafka/k8s部署kafka集群(helm版).md",
+                    "file": "2、组件篇/6、消息队列/2、Kafka/k8s部署kafka集群(helm版).md",
+                    "children": []
+                  },
+                  {
+                    "type": "doc",
+                    "title": "k8s部署kafka集群(k8s外部可访问)",
+                    "path": "2、组件篇/6、消息队列/2、Kafka/k8s部署kafka集群(k8s外部可访问).md",
+                    "file": "2、组件篇/6、消息队列/2、Kafka/k8s部署kafka集群(k8s外部可访问).md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "dir",
+                "title": "Rabbitmq",
+                "path": "2、组件篇/6、消息队列/3、Rabbitmq",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "k8s安装rabbitmq（operator）",
+                    "path": "2、组件篇/6、消息队列/3、Rabbitmq/k8s安装rabbitmq（operator）.md",
+                    "file": "2、组件篇/6、消息队列/3、Rabbitmq/k8s安装rabbitmq（operator）.md",
+                    "children": []
+                  },
+                  {
+                    "type": "doc",
+                    "title": "k8s手撕yml方式安装rabbitmq",
+                    "path": "2、组件篇/6、消息队列/3、Rabbitmq/k8s手撕yml方式安装rabbitmq.md",
+                    "file": "2、组件篇/6、消息队列/3、Rabbitmq/k8s手撕yml方式安装rabbitmq.md",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "dir",
+            "title": "分布式云存储、CFS文件存储、COS对象存储",
+            "path": "2、组件篇/7、分布式云存储、CFS文件存储、COS对象存储",
+            "file": null,
+            "children": [
+              {
+                "type": "dir",
+                "title": "docker方式",
+                "path": "2、组件篇/7、分布式云存储、CFS文件存储、COS对象存储/1、docker方式",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "docker方式",
+                    "path": "2、组件篇/7、分布式云存储、CFS文件存储、COS对象存储/1、docker方式/docker方式.md",
+                    "file": "2、组件篇/7、分布式云存储、CFS文件存储、COS对象存储/1、docker方式/docker方式.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "dir",
+                "title": "k8s手撕yml方式",
+                "path": "2、组件篇/7、分布式云存储、CFS文件存储、COS对象存储/2、k8s手撕yml方式",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "k8s部署minio单机",
+                    "path": "2、组件篇/7、分布式云存储、CFS文件存储、COS对象存储/2、k8s手撕yml方式/k8s部署minio单机.md",
+                    "file": "2、组件篇/7、分布式云存储、CFS文件存储、COS对象存储/2、k8s手撕yml方式/k8s部署minio单机.md",
+                    "children": []
+                  },
+                  {
+                    "type": "doc",
+                    "title": "k8s手撕yml方式",
+                    "path": "2、组件篇/7、分布式云存储、CFS文件存储、COS对象存储/2、k8s手撕yml方式/k8s手撕yml方式.md",
+                    "file": "2、组件篇/7、分布式云存储、CFS文件存储、COS对象存储/2、k8s手撕yml方式/k8s手撕yml方式.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "doc",
+                "title": "docker方式",
+                "path": "2、组件篇/7、分布式云存储、CFS文件存储、COS对象存储/1、docker方式.md",
+                "file": "2、组件篇/7、分布式云存储、CFS文件存储、COS对象存储/1、docker方式.md",
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "dir",
+            "title": "分布式任务调度",
+            "path": "2、组件篇/8、分布式任务调度",
+            "file": null,
+            "children": [
+              {
+                "type": "doc",
+                "title": "xxl-job-2.4.1",
+                "path": "2、组件篇/8、分布式任务调度/xxl-job-2.4.1.md",
+                "file": "2、组件篇/8、分布式任务调度/xxl-job-2.4.1.md",
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "dir",
+            "title": "分布式搜索引擎-Elasticsearch",
+            "path": "2、组件篇/9、分布式搜索引擎-Elasticsearch",
+            "file": null,
+            "children": [
+              {
+                "type": "dir",
+                "title": "常用操作",
+                "path": "2、组件篇/9、分布式搜索引擎-Elasticsearch/常用操作",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "启用自动创建索引",
+                    "path": "2、组件篇/9、分布式搜索引擎-Elasticsearch/常用操作/启用自动创建索引.md",
+                    "file": "2、组件篇/9、分布式搜索引擎-Elasticsearch/常用操作/启用自动创建索引.md",
+                    "children": []
+                  },
+                  {
+                    "type": "doc",
+                    "title": "手动迁移分片",
+                    "path": "2、组件篇/9、分布式搜索引擎-Elasticsearch/常用操作/手动迁移分片.md",
+                    "file": "2、组件篇/9、分布式搜索引擎-Elasticsearch/常用操作/手动迁移分片.md",
+                    "children": []
+                  },
+                  {
+                    "type": "doc",
+                    "title": "重新分配失败的分片",
+                    "path": "2、组件篇/9、分布式搜索引擎-Elasticsearch/常用操作/重新分配失败的分片.md",
+                    "file": "2、组件篇/9、分布式搜索引擎-Elasticsearch/常用操作/重新分配失败的分片.md",
+                    "children": []
+                  },
+                  {
+                    "type": "doc",
+                    "title": "自定义索引模版：分片数、副本",
+                    "path": "2、组件篇/9、分布式搜索引擎-Elasticsearch/常用操作/自定义索引模版：分片数、副本.md",
+                    "file": "2、组件篇/9、分布式搜索引擎-Elasticsearch/常用操作/自定义索引模版：分片数、副本.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "doc",
+                "title": "Docker 安装 Elasticsearch",
+                "path": "2、组件篇/9、分布式搜索引擎-Elasticsearch/Docker 安装 Elasticsearch.md",
+                "file": "2、组件篇/9、分布式搜索引擎-Elasticsearch/Docker 安装 Elasticsearch.md",
+                "children": []
+              },
+              {
+                "type": "doc",
+                "title": "Elasticsearch 备份还原迁移",
+                "path": "2、组件篇/9、分布式搜索引擎-Elasticsearch/Elasticsearch 备份还原迁移.md",
+                "file": "2、组件篇/9、分布式搜索引擎-Elasticsearch/Elasticsearch 备份还原迁移.md",
+                "children": []
+              },
+              {
+                "type": "doc",
+                "title": "k8s安装Elasticsearch（单节点）",
+                "path": "2、组件篇/9、分布式搜索引擎-Elasticsearch/k8s安装Elasticsearch（单节点）.md",
+                "file": "2、组件篇/9、分布式搜索引擎-Elasticsearch/k8s安装Elasticsearch（单节点）.md",
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "dir",
+            "title": "zookeeper",
+            "path": "2、组件篇/10、zookeeper",
+            "file": null,
+            "children": [
+              {
+                "type": "doc",
+                "title": "k8s手撕yml方式安装zookeeper单机",
+                "path": "2、组件篇/10、zookeeper/k8s手撕yml方式安装zookeeper单机.md",
+                "file": "2、组件篇/10、zookeeper/k8s手撕yml方式安装zookeeper单机.md",
+                "children": []
+              },
+              {
+                "type": "doc",
+                "title": "k8s手撕yml方式安装zookeeper集群",
+                "path": "2、组件篇/10、zookeeper/k8s手撕yml方式安装zookeeper集群.md",
+                "file": "2、组件篇/10、zookeeper/k8s手撕yml方式安装zookeeper集群.md",
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "dir",
+            "title": "dolphinscheduler",
+            "path": "2、组件篇/11、dolphinscheduler",
+            "file": null,
+            "children": [
+              {
+                "type": "doc",
+                "title": "k8s部署dolphinscheduler（helm）",
+                "path": "2、组件篇/11、dolphinscheduler/k8s部署dolphinscheduler（helm）.md",
+                "file": "2、组件篇/11、dolphinscheduler/k8s部署dolphinscheduler（helm）.md",
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "dir",
+            "title": "PowerJob",
+            "path": "2、组件篇/12、PowerJob",
+            "file": null,
+            "children": [
+              {
+                "type": "doc",
+                "title": "k8s安装powerjob",
+                "path": "2、组件篇/12、PowerJob/k8s安装powerjob.md",
+                "file": "2、组件篇/12、PowerJob/k8s安装powerjob.md",
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "dir",
+            "title": "StreamPark",
+            "path": "2、组件篇/13、StreamPark",
+            "file": null,
+            "children": [
+              {
+                "type": "doc",
+                "title": "k8s部署StreamPark",
+                "path": "2、组件篇/13、StreamPark/k8s部署StreamPark.md",
+                "file": "2、组件篇/13、StreamPark/k8s部署StreamPark.md",
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "dir",
+            "title": "docker-in-docker",
+            "path": "2、组件篇/14、docker-in-docker",
+            "file": null,
+            "children": [
+              {
+                "type": "doc",
+                "title": "k8s部署docker",
+                "path": "2、组件篇/14、docker-in-docker/k8s部署docker.md",
+                "file": "2、组件篇/14、docker-in-docker/k8s部署docker.md",
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "dir",
+            "title": "etcd",
+            "path": "2、组件篇/15、etcd",
+            "file": null,
+            "children": [
+              {
+                "type": "doc",
+                "title": "Docker运行 3 节点 etcd 集群",
+                "path": "2、组件篇/15、etcd/Docker运行 3 节点 etcd 集群.md",
+                "file": "2、组件篇/15、etcd/Docker运行 3 节点 etcd 集群.md",
+                "children": []
+              },
+              {
+                "type": "doc",
+                "title": "Docker运行单节点 etcd",
+                "path": "2、组件篇/15、etcd/Docker运行单节点 etcd.md",
+                "file": "2、组件篇/15、etcd/Docker运行单节点 etcd.md",
+                "children": []
+              },
+              {
+                "type": "doc",
+                "title": "k8s部署etcd",
+                "path": "2、组件篇/15、etcd/k8s部署etcd.md",
+                "file": "2、组件篇/15、etcd/k8s部署etcd.md",
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "dir",
+            "title": "k8s-doris",
+            "path": "2、组件篇/16 、k8s-doris",
+            "file": null,
+            "children": [
+              {
+                "type": "doc",
+                "title": "k8s部署存算分离 Doris 集群",
+                "path": "2、组件篇/16 、k8s-doris/k8s部署存算分离 Doris 集群.md",
+                "file": "2、组件篇/16 、k8s-doris/k8s部署存算分离 Doris 集群.md",
+                "children": []
+              },
+              {
+                "type": "doc",
+                "title": "k8s部署存算一体 Doris 集群",
+                "path": "2、组件篇/16 、k8s-doris/k8s部署存算一体 Doris 集群.md",
+                "file": "2、组件篇/16 、k8s-doris/k8s部署存算一体 Doris 集群.md",
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "dir",
+            "title": "docker-in-docker-clash",
+            "path": "2、组件篇/17、docker-in-docker-clash",
+            "file": null,
+            "children": [
+              {
+                "type": "doc",
+                "title": "k8s部署docker-in-docker-clash",
+                "path": "2、组件篇/17、docker-in-docker-clash/k8s部署docker-in-docker-clash.md",
+                "file": "2、组件篇/17、docker-in-docker-clash/k8s部署docker-in-docker-clash.md",
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "dir",
+            "title": "clash-Linux翻墙",
+            "path": "2、组件篇/18、clash-Linux翻墙",
+            "file": null,
+            "children": [
+              {
+                "type": "doc",
+                "title": "clash-Linux翻墙",
+                "path": "2、组件篇/18、clash-Linux翻墙/clash-Linux翻墙.md",
+                "file": "2、组件篇/18、clash-Linux翻墙/clash-Linux翻墙.md",
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "dir",
+            "title": "k8s-rockylinux",
+            "path": "2、组件篇/19、k8s-rockylinux",
+            "file": null,
+            "children": [
+              {
+                "type": "doc",
+                "title": "k8s-rockylinux",
+                "path": "2、组件篇/19、k8s-rockylinux/k8s-rockylinux.md",
+                "file": "2、组件篇/19、k8s-rockylinux/k8s-rockylinux.md",
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "dir",
+            "title": "k8s-shadowsocks",
+            "path": "2、组件篇/20、k8s-shadowsocks",
+            "file": null,
+            "children": [
+              {
+                "type": "doc",
+                "title": "k8s-shadowsocks",
+                "path": "2、组件篇/20、k8s-shadowsocks/k8s-shadowsocks.md",
+                "file": "2、组件篇/20、k8s-shadowsocks/k8s-shadowsocks.md",
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "doc",
+            "title": "k8s-rockylinux",
+            "path": "2、组件篇/19、k8s-rockylinux.md",
+            "file": "2、组件篇/19、k8s-rockylinux.md",
+            "children": []
+          },
+          {
+            "type": "doc",
+            "title": "k8s-shadowsocks",
+            "path": "2、组件篇/20、k8s-shadowsocks.md",
+            "file": "2、组件篇/20、k8s-shadowsocks.md",
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "dir",
+        "title": "项目篇",
+        "path": "3、项目篇",
+        "file": null,
+        "children": [
+          {
+            "type": "dir",
+            "title": "（go）go 微服务 go-zero 部署文档（DevOps、CICD版）",
+            "path": "3、项目篇/（go）go 微服务 go-zero 部署文档（DevOps、CICD版）",
+            "file": null,
+            "children": [
+              {
+                "type": "doc",
+                "title": "go 微服务 go-zero 部署文档（DevOps、CICD版）（2024-01-25版）",
+                "path": "3、项目篇/（go）go 微服务 go-zero 部署文档（DevOps、CICD版）/go 微服务 go-zero 部署文档（DevOps、CICD版）（2024-01-25版）.md",
+                "file": "3、项目篇/（go）go 微服务 go-zero 部署文档（DevOps、CICD版）/go 微服务 go-zero 部署文档（DevOps、CICD版）（2024-01-25版）.md",
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "dir",
+            "title": "（Java）SpringCloud 微服务 RuoYi-Cloud 部署文档（DevOps、CICD版）",
+            "path": "3、项目篇/（Java）SpringCloud 微服务 RuoYi-Cloud 部署文档（DevOps、CICD版）",
+            "file": null,
+            "children": [
+              {
+                "type": "doc",
+                "title": "RuoYi-Cloud-pipeline",
+                "path": "3、项目篇/（Java）SpringCloud 微服务 RuoYi-Cloud 部署文档（DevOps、CICD版）/RuoYi-Cloud-pipeline.md",
+                "file": "3、项目篇/（Java）SpringCloud 微服务 RuoYi-Cloud 部署文档（DevOps、CICD版）/RuoYi-Cloud-pipeline.md",
+                "children": []
+              },
+              {
+                "type": "doc",
+                "title": "SpringCloud 微服务 RuoYi-Cloud 部署文档（DevOps版）（2024-01-25版）",
+                "path": "3、项目篇/（Java）SpringCloud 微服务 RuoYi-Cloud 部署文档（DevOps、CICD版）/SpringCloud 微服务 RuoYi-Cloud 部署文档（DevOps版）（2024-01-25版）.md",
+                "file": "3、项目篇/（Java）SpringCloud 微服务 RuoYi-Cloud 部署文档（DevOps、CICD版）/SpringCloud 微服务 RuoYi-Cloud 部署文档（DevOps版）（2024-01-25版）.md",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "dir",
+        "title": "安全篇",
+        "path": "4、安全篇",
+        "file": null,
+        "children": [
+          {
+            "type": "doc",
+            "title": "k8s部署waf",
+            "path": "4、安全篇/k8s部署waf.md",
+            "file": "4、安全篇/k8s部署waf.md",
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "dir",
+        "title": "k8s-多集群的流量治理-高级篇",
+        "path": "5、k8s-多集群的流量治理-高级篇",
+        "file": null,
+        "children": [
+          {
+            "type": "dir",
+            "title": "helm安装karmada",
+            "path": "5、k8s-多集群的流量治理-高级篇/1、helm安装karmada",
+            "file": null,
+            "children": [
+              {
+                "type": "doc",
+                "title": "helm安装karmada（2024-01-29）",
+                "path": "5、k8s-多集群的流量治理-高级篇/1、helm安装karmada/1、helm安装karmada（2024-01-29）.md",
+                "file": "5、k8s-多集群的流量治理-高级篇/1、helm安装karmada/1、helm安装karmada（2024-01-29）.md",
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "dir",
+            "title": "Istio跨网络多主架构（实现多集群的流量治理）",
+            "path": "5、k8s-多集群的流量治理-高级篇/2、Istio跨网络多主架构（实现多集群的流量治理）",
+            "file": null,
+            "children": [
+              {
+                "type": "doc",
+                "title": "Istio跨网络多主架构（实现多集群的流量治理）（2024-01-29）",
+                "path": "5、k8s-多集群的流量治理-高级篇/2、Istio跨网络多主架构（实现多集群的流量治理）/2、Istio跨网络多主架构（实现多集群的流量治理）（2024-01-29）.md",
+                "file": "5、k8s-多集群的流量治理-高级篇/2、Istio跨网络多主架构（实现多集群的流量治理）/2、Istio跨网络多主架构（实现多集群的流量治理）（2024-01-29）.md",
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "dir",
+            "title": "通过 karmada + istio + argo-rollout 进行多集群编排",
+            "path": "5、k8s-多集群的流量治理-高级篇/3、通过 karmada + istio + argo-rollout 进行多集群编排",
+            "file": null,
+            "children": [
+              {
+                "type": "doc",
+                "title": "通过 karmada + istio + argo-rollout 进行多集群编排（2024-01-30）",
+                "path": "5、k8s-多集群的流量治理-高级篇/3、通过 karmada + istio + argo-rollout 进行多集群编排/3、通过 karmada + istio + argo-rollout 进行多集群编排（2024-01-30）.md",
+                "file": "5、k8s-多集群的流量治理-高级篇/3、通过 karmada + istio + argo-rollout 进行多集群编排/3、通过 karmada + istio + argo-rollout 进行多集群编排（2024-01-30）.md",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "dir",
+        "title": "k8s发布方案",
+        "path": "6、k8s发布方案",
+        "file": null,
+        "children": [
+          {
+            "type": "dir",
+            "title": "单集群",
+            "path": "6、k8s发布方案/单集群",
+            "file": null,
+            "children": [
+              {
+                "type": "dir",
+                "title": "发布方案 1：Deployment + Ingress",
+                "path": "6、k8s发布方案/单集群/发布方案 1：Deployment + Ingress",
+                "file": null,
+                "children": [
+                  {
+                    "type": "dir",
+                    "title": "java",
+                    "path": "6、k8s发布方案/单集群/发布方案 1：Deployment + Ingress/java",
+                    "file": null,
+                    "children": [
+                      {
+                        "type": "doc",
+                        "title": "发布方案 1：Deployment + Ingress",
+                        "path": "6、k8s发布方案/单集群/发布方案 1：Deployment + Ingress/java/发布方案 1：Deployment + Ingress.md",
+                        "file": "6、k8s发布方案/单集群/发布方案 1：Deployment + Ingress/java/发布方案 1：Deployment + Ingress.md",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "dir",
+                    "title": "vue",
+                    "path": "6、k8s发布方案/单集群/发布方案 1：Deployment + Ingress/vue",
+                    "file": null,
+                    "children": [
+                      {
+                        "type": "doc",
+                        "title": "发布方案 1：Deployment + Ingress",
+                        "path": "6、k8s发布方案/单集群/发布方案 1：Deployment + Ingress/vue/发布方案 1：Deployment + Ingress.md",
+                        "file": "6、k8s发布方案/单集群/发布方案 1：Deployment + Ingress/vue/发布方案 1：Deployment + Ingress.md",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "dir",
+                "title": "发布方案 2：Argo-Rollout + Ingress",
+                "path": "6、k8s发布方案/单集群/发布方案 2：Argo-Rollout + Ingress",
+                "file": null,
+                "children": [
+                  {
+                    "type": "dir",
+                    "title": "java",
+                    "path": "6、k8s发布方案/单集群/发布方案 2：Argo-Rollout + Ingress/java",
+                    "file": null,
+                    "children": [
+                      {
+                        "type": "doc",
+                        "title": "发布方案 2：Argo-Rollout + Ingress",
+                        "path": "6、k8s发布方案/单集群/发布方案 2：Argo-Rollout + Ingress/java/发布方案 2：Argo-Rollout + Ingress.md",
+                        "file": "6、k8s发布方案/单集群/发布方案 2：Argo-Rollout + Ingress/java/发布方案 2：Argo-Rollout + Ingress.md",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "dir",
+                    "title": "vue",
+                    "path": "6、k8s发布方案/单集群/发布方案 2：Argo-Rollout + Ingress/vue",
+                    "file": null,
+                    "children": [
+                      {
+                        "type": "doc",
+                        "title": "发布方案 2：Argo-Rollout + Ingress",
+                        "path": "6、k8s发布方案/单集群/发布方案 2：Argo-Rollout + Ingress/vue/发布方案 2：Argo-Rollout + Ingress.md",
+                        "file": "6、k8s发布方案/单集群/发布方案 2：Argo-Rollout + Ingress/vue/发布方案 2：Argo-Rollout + Ingress.md",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "dir",
+                "title": "发布方案 3：Argo-Rollout + Istio",
+                "path": "6、k8s发布方案/单集群/发布方案 3：Argo-Rollout + Istio",
+                "file": null,
+                "children": [
+                  {
+                    "type": "dir",
+                    "title": "java",
+                    "path": "6、k8s发布方案/单集群/发布方案 3：Argo-Rollout + Istio/java",
+                    "file": null,
+                    "children": [
+                      {
+                        "type": "doc",
+                        "title": "发布方案 3：Argo-Rollout + Istio",
+                        "path": "6、k8s发布方案/单集群/发布方案 3：Argo-Rollout + Istio/java/发布方案 3：Argo-Rollout + Istio.md",
+                        "file": "6、k8s发布方案/单集群/发布方案 3：Argo-Rollout + Istio/java/发布方案 3：Argo-Rollout + Istio.md",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "type": "dir",
+                    "title": "vue",
+                    "path": "6、k8s发布方案/单集群/发布方案 3：Argo-Rollout + Istio/vue",
+                    "file": null,
+                    "children": [
+                      {
+                        "type": "doc",
+                        "title": "发布方案 3：Argo-Rollout + Istio",
+                        "path": "6、k8s发布方案/单集群/发布方案 3：Argo-Rollout + Istio/vue/发布方案 3：Argo-Rollout + Istio.md",
+                        "file": "6、k8s发布方案/单集群/发布方案 3：Argo-Rollout + Istio/vue/发布方案 3：Argo-Rollout + Istio.md",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "dir",
+            "title": "多集群",
+            "path": "6、k8s发布方案/多集群",
+            "file": null,
+            "children": [
+              {
+                "type": "dir",
+                "title": "发布方案 1：Karmada + Deployment + Ingress",
+                "path": "6、k8s发布方案/多集群/发布方案 1：Karmada + Deployment + Ingress",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "二进制方式",
+                    "path": "6、k8s发布方案/多集群/发布方案 1：Karmada + Deployment + Ingress/二进制方式.md",
+                    "file": "6、k8s发布方案/多集群/发布方案 1：Karmada + Deployment + Ingress/二进制方式.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "dir",
+                "title": "发布方案 2：Karmada + Argo-Rollout + Ingress",
+                "path": "6、k8s发布方案/多集群/发布方案 2：Karmada + Argo-Rollout + Ingress",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "二进制方式",
+                    "path": "6、k8s发布方案/多集群/发布方案 2：Karmada + Argo-Rollout + Ingress/二进制方式.md",
+                    "file": "6、k8s发布方案/多集群/发布方案 2：Karmada + Argo-Rollout + Ingress/二进制方式.md",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "type": "dir",
+                "title": "发布方案 3：Karmada + Argo-Rollout + Istio",
+                "path": "6、k8s发布方案/多集群/发布方案 3：Karmada + Argo-Rollout + Istio",
+                "file": null,
+                "children": [
+                  {
+                    "type": "doc",
+                    "title": "二进制方式",
+                    "path": "6、k8s发布方案/多集群/发布方案 3：Karmada + Argo-Rollout + Istio/二进制方式.md",
+                    "file": "6、k8s发布方案/多集群/发布方案 3：Karmada + Argo-Rollout + Istio/二进制方式.md",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "doc",
+            "title": "k8s发布方案",
+            "path": "6、k8s发布方案/k8s发布方案.md",
+            "file": "6、k8s发布方案/k8s发布方案.md",
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "dir",
+        "title": "云原生分布式存储",
+        "path": "7、云原生分布式存储",
+        "file": null,
+        "children": [
+          {
+            "type": "doc",
+            "title": "helm 安装 rook-ceph（腾讯云镜像仓库）",
+            "path": "7、云原生分布式存储/helm 安装 rook-ceph（腾讯云镜像仓库）.md",
+            "file": "7、云原生分布式存储/helm 安装 rook-ceph（腾讯云镜像仓库）.md",
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "dir",
+        "title": "工具",
+        "path": "8、工具",
+        "file": null,
+        "children": [
+          {
+            "type": "dir",
+            "title": "禅道",
+            "path": "8、工具/1、禅道",
+            "file": null,
+            "children": [
+              {
+                "type": "doc",
+                "title": "docker方式安装禅道",
+                "path": "8、工具/1、禅道/docker方式安装禅道.md",
+                "file": "8、工具/1、禅道/docker方式安装禅道.md",
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "dir",
+            "title": "YApi",
+            "path": "8、工具/2、YApi",
+            "file": null,
+            "children": [
+              {
+                "type": "doc",
+                "title": "docker安装YApi接口管理工具",
+                "path": "8、工具/2、YApi/docker安装YApi接口管理工具.md",
+                "file": "8、工具/2、YApi/docker安装YApi接口管理工具.md",
+                "children": []
+              },
+              {
+                "type": "doc",
+                "title": "k8s部署YApi",
+                "path": "8、工具/2、YApi/k8s部署YApi.md",
+                "file": "8、工具/2、YApi/k8s部署YApi.md",
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "dir",
+            "title": "Yearning",
+            "path": "8、工具/3、Yearning",
+            "file": null,
+            "children": [
+              {
+                "type": "doc",
+                "title": "K8s安装yearning",
+                "path": "8、工具/3、Yearning/K8s安装yearning.md",
+                "file": "8、工具/3、Yearning/K8s安装yearning.md",
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "dir",
+            "title": "临时传文件",
+            "path": "8、工具/4、临时传文件",
+            "file": null,
+            "children": [
+              {
+                "type": "doc",
+                "title": "临时传文件",
+                "path": "8、工具/4、临时传文件/4、临时传文件.md",
+                "file": "8、工具/4、临时传文件/4、临时传文件.md",
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "doc",
+            "title": "临时传文件",
+            "path": "8、工具/4、临时传文件.md",
+            "file": "8、工具/4、临时传文件.md",
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "dir",
+        "title": "面试题",
+        "path": "9、面试题",
+        "file": null,
+        "children": [
+          {
+            "type": "doc",
+            "title": "二进制方式",
+            "path": "9、面试题/二进制方式.md",
+            "file": "9、面试题/二进制方式.md",
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "dir",
+        "title": "公有云",
+        "path": "10、公有云",
+        "file": null,
+        "children": [
+          {
+            "type": "dir",
+            "title": "aws",
+            "path": "10、公有云/1、aws",
+            "file": null,
+            "children": [
+              {
+                "type": "doc",
+                "title": "配置kubectl连接eks",
+                "path": "10、公有云/1、aws/配置kubectl连接eks.md",
+                "file": "10、公有云/1、aws/配置kubectl连接eks.md",
+                "children": []
+              },
+              {
+                "type": "doc",
+                "title": "aws购买redis",
+                "path": "10、公有云/1、aws/aws购买redis.md",
+                "file": "10、公有云/1、aws/aws购买redis.md",
+                "children": []
+              },
+              {
+                "type": "doc",
+                "title": "docker拉aws镜像配置",
+                "path": "10、公有云/1、aws/docker拉aws镜像配置.md",
+                "file": "10、公有云/1、aws/docker拉aws镜像配置.md",
+                "children": []
+              },
+              {
+                "type": "doc",
+                "title": "eks使用efs流程",
+                "path": "10、公有云/1、aws/eks使用efs流程.md",
+                "file": "10、公有云/1、aws/eks使用efs流程.md",
+                "children": []
+              },
+              {
+                "type": "doc",
+                "title": "eks新加节点组",
+                "path": "10、公有云/1、aws/eks新加节点组.md",
+                "file": "10、公有云/1、aws/eks新加节点组.md",
+                "children": []
+              },
+              {
+                "type": "doc",
+                "title": "ingress-nginx获取客户端真实ip",
+                "path": "10、公有云/1、aws/ingress-nginx获取客户端真实ip.md",
+                "file": "10、公有云/1、aws/ingress-nginx获取客户端真实ip.md",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "dir",
+        "title": "K8s YML 模版",
+        "path": "k8s-yml模版",
+        "file": null,
+        "children": [
+          {
+            "type": "dir",
+            "title": "java",
+            "path": "k8s-yml模版/java",
+            "file": null,
+            "children": [
+              {
+                "type": "doc",
+                "title": "k8s-java-xxx.yml",
+                "path": "k8s-yml模版/java/k8s-java-xxx.yml.md",
+                "file": "k8s-yml模版/java/k8s-java-xxx.yml.md",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

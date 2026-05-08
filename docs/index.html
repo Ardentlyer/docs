@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ops Docs · 文档</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Source+Sans+3:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/styles/atom-one-light.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="doc-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <div class="brand-meta">
+          <div class="logo">Ops Docs</div>
+          <div class="tag">运维知识库</div>
+        </div>
+        <button class="sidebar-pin-toggle" id="sidebarPinToggle" aria-label="收起目录" title="收起目录">⟨⟨</button>
+      </div>
+      <div class="nav-filter-wrap">
+        <input id="navFilter" class="nav-filter" type="search" placeholder="筛选目录..." aria-label="筛选目录" />
+      </div>
+      <nav id="nav" class="nav-tree"></nav>
+      <div class="sidebar-footer" id="build-meta"></div>
+    </aside>
+
+    <main class="content">
+      <div class="content-top">
+        <button class="sidebar-toggle" id="sidebarToggle">收起目录</button>
+        <div class="content-head">
+          <h1 id="page-title">加载中...</h1>
+          <div class="page-meta" id="page-meta"></div>
+        </div>
+        <a class="home-link" href="../">主页</a>
+      </div>
+
+      <div class="doc-layout">
+        <article id="content" class="markdown-body"></article>
+        <aside id="tocPanel" class="toc-panel hidden" aria-label="文章目录">
+          <div class="toc-title">文章目录</div>
+          <nav id="tocNav" class="toc-nav"></nav>
+        </aside>
+      </div>
+    </main>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/lib/highlight.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

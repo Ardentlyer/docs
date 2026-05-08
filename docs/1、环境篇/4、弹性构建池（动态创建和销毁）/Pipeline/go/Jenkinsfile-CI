@@ -1,0 +1,184 @@
+#!/usr/bin/env groovy
+
+def git_auth = "1fa96864-5699-483b-a920-2af11df61119"
+def image_auth = "1e0ae5b9-b151-45b9-a94f-bd02d803ff22"
+def sonarqube_auth = "2a5e8f48-ffe9-4f44-ab63-08af986875e9"
+
+pipeline {
+    agent {
+        kubernetes {
+            yaml '''
+apiVersion: v1
+kind: Pod
+metadata:
+  name: jenkins-slave
+  namespace: jenkins
+spec:
+  tolerations:
+  - key: "no-pod"
+    operator: "Exists"
+    effect: "NoSchedule"
+  containers:
+  - name: docker
+    #image: docker:28.1.1
+    image: ccr.ccs.tencentyun.com/huanghuanhui/docker:28.1.1
+    imagePullPolicy: IfNotPresent
+    readinessProbe:
+      exec:
+        command: [sh, -c, "ls -S /var/run/docker.sock"]
+    command:
+    - sleep
+    args:
+    - 99d
+    volumeMounts:
+    - name: docker-socket
+      mountPath: /var/run
+  - name: docker-daemon
+    #image: docker:28.1.1-dind
+    image: ccr.ccs.tencentyun.com/huanghuanhui/docker:28.1.1-dind
+    imagePullPolicy: IfNotPresent
+    securityContext:
+      privileged: true
+    volumeMounts:
+    - name: docker-socket
+      mountPath: /var/run
+  - name: golang
+    #image: golang:1.24.2
+    image: ccr.ccs.tencentyun.com/huanghuanhui/golang:1.24.2
+    imagePullPolicy: IfNotPresent
+    command:
+    - sleep
+    args:
+    - 99d
+    volumeMounts:
+    - name: golang-cache
+      mountPath: /go/pkg/mod
+    - name: go-build-cache
+      mountPath: /root/.cache/go-build
+  - name: kubectl
+    image: ccr.ccs.tencentyun.com/huanghuanhui/kubectl:v1.6.0
+    imagePullPolicy: IfNotPresent
+    command:
+    - sleep
+    args:
+    - 99d
+  - name: sonar-scanner
+    image: ccr.ccs.tencentyun.com/huanghuanhui/sonar-scanner-cli:11.4
+    imagePullPolicy: IfNotPresent
+    command:
+    - sleep
+    args:
+    - 99d
+  - name: jnlp
+    #image: jenkins/inbound-agent:3327.v868139a_d00e0-6
+    image: ccr.ccs.tencentyun.com/huanghuanhui/jenkins-inbound-agent:3327.v868139a_d00e0-6
+    imagePullPolicy: IfNotPresent
+  volumes:
+  - name: docker-socket
+    emptyDir: {}
+  - name: golang-cache
+    persistentVolumeClaim:
+      claimName: jenkins-slave-golang-cache
+  - name: go-build-cache
+    persistentVolumeClaim:
+      claimName: jenkins-slave-go-build-cache
+'''
+        }
+    }
+
+environment {
+AppName = "${AppName}"
+GitRepo = "${GitRepo}"
+GitBranch = "${GitBranch}"
+Server = "${Server}"
+RepoName = "${RepoName}"
+BaseImage = "${BaseImage}"
+}
+
+    parameters {
+        string(name: 'AppName', defaultValue: 'blue-ruoyi-auth', description: '服务名')
+        string(name: 'GitRepo', defaultValue: 'https://gitlab.huanghuanhui.com/root/RuoYi-Cloud.git', description: '代码仓库地址')
+        string(name: 'GitBranch', defaultValue: 'blue', description: '代码版本')
+        string(name: 'Server', defaultValue: 'ccr.ccs.tencentyun.com', description: '仓库地址')
+        string(name: 'RepoName', defaultValue: 'huanghuanhui/dev-blue-ruoyi-auth', description: '仓库名字（仓库自动创建）')
+        string(name: 'BaseImage', defaultValue: 'ccr.ccs.tencentyun.com/huanghuanhui/openjdk:8-jre', description: '基础镜像')
+        string(name: 'JAVA_OPTS', defaultValue: '-Xms1024M -Xmx1024M -Xmn256M -Dspring.config.location=app.yml -Dserver.tomcat.max-threads=800', description: 'jar 运行时的参数配置')
+    }
+    
+    stages {
+        stage('拉取代码') {
+			      steps {
+			      git branch: "${GitBranch}", credentialsId: "${git_auth}", url: "${GitRepo}"
+			      }
+	    	}
+
+        stage('代码扫描') {
+            steps {
+                container('sonar-scanner') {
+                    withCredentials([string(credentialsId: "${sonarqube_auth}", variable: 'SONAR_TOKEN')]) {
+                        sh """
+                        sonar-scanner \
+                          -Dsonar.projectKey=${AppName} \
+                          -Dsonar.sources=. \
+                          -Dsonar.host.url=http://sonarqube-service.sonarqube:9000 \
+                        """
+                    }
+                }
+            }
+        }
+
+        stage('代码编译') {
+            steps {
+              container('golang') {
+                sh """
+                  go env -w  GOPROXY=https://goproxy.io,direct
+                  go mod tidy && go build -o app -buildvcs=false
+                """
+                }
+            }
+        }
+
+        stage('打包镜像') {
+            steps {
+              script {env.GIT_COMMIT_MSG = sh (script: 'git rev-parse --short HEAD', returnStdout: true).trim()}
+              container('docker') {
+sh '''
+cat > Dockerfile << EOF
+FROM ccr.ccs.tencentyun.com/huanghuanhui/rockylinux:10.0
+
+# 创建应用目录
+RUN mkdir -p /app
+WORKDIR /app
+
+# 复制预编译的二进制文件和配置文件
+COPY app /app/app
+COPY config.yaml /app/config.yaml
+ADD frontend /app/frontend
+ADD admin /app/admin
+# 暴露端口
+EXPOSE 8080
+
+# 设置启动命令 (使用配置文件)
+CMD ["/app/app", "-config", "/app/config.yaml"]
+EOF
+
+docker build -t ${Server}/${RepoName}:${GitBranch}-${GIT_COMMIT_MSG}-${BUILD_ID} .
+'''
+                }
+            }
+        }
+
+        stage('推送镜像') {
+            steps {
+              container('docker') {
+                withCredentials([usernamePassword(credentialsId: "${image_auth}", passwordVariable: 'password', usernameVariable: 'username')]) {
+                sh """
+                docker login -u ${username} -p '${password}' ${Server}
+                docker push ${Server}/${RepoName}:${GitBranch}-${GIT_COMMIT_MSG}-${BUILD_ID}
+                """
+                   }
+                }
+            }
+        }
+    }
+}

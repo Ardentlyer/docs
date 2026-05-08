@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ops Docs · Kubernetes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Source+Sans+3:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body class="landing">
+  <div class="bg-sky"></div>
+  <div class="bg-grid"></div>
+
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark">OPS</span>
+      <span class="brand-text">Ops Docs</span>
+    </div>
+    <div class="top-actions">
+      <form class="search" id="siteSearch" action="docs/" method="get">
+        <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="11" cy="11" r="7" />
+          <path d="M20 20l-3.5-3.5" />
+        </svg>
+        <input id="searchInput" name="q" type="search" placeholder="Search this site" aria-label="Search this site" />
+      </form>
+      <a class="github-link" href="https://github.com/Ardentlyer/docs" target="_blank" rel="noopener" aria-label="GitHub 仓库">
+        <svg class="github-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="12" cy="12" r="11" fill="#ffffff" />
+          <path fill="#0f172a" d="M12 2.6C6.81 2.6 2.6 6.81 2.6 12c0 4.06 2.62 7.5 6.26 8.71.46.09.63-.2.63-.45 0-.22-.01-.81-.01-1.6-2.55.56-3.09-1.23-3.09-1.23-.42-1.06-1.02-1.34-1.02-1.34-.84-.58.07-.57.07-.57.92.06 1.4.95 1.4.95.82 1.41 2.14 1 2.66.76.08-.59.32-.99.58-1.22-2.04-.23-4.18-1.03-4.18-4.59 0-1.02.36-1.85.95-2.5-.09-.24-.41-1.18.09-2.44 0 0 .78-.25 2.55.96a8.3 8.3 0 0 1 4.64 0c1.77-1.21 2.55-.96 2.55-.96.5 1.26.18 2.2.09 2.44.59.65.95 1.48.95 2.5 0 3.57-2.15 4.36-4.19 4.59.33.29.62.86.62 1.74 0 1.25-.01 2.26-.01 2.57 0 .25.17.55.64.45A9.42 9.42 0 0 0 21.4 12c0-5.19-4.21-9.4-9.4-9.4z" />
+        </svg>
+      </a>
+    </div>
+  </header>
+
+  <main class="center-panel">
+    <p class="tagline">把运维文档<br />变成一座可探索的基地</p>
+    <div class="worldtree">
+      <img class="worldtree-img" src="assets/images/k8s-world-tree.png" alt="Kubernetes 世界树徽章" />
+      <span class="worldtree-url">ardentlyer.github.io/docs</span>
+    </div>
+    <div class="center-actions">
+      <a class="chip primary" href="docs/">进入文档</a>
+    </div>
+  </main>
+
+  <script>
+    (function () {
+      const form = document.getElementById('siteSearch');
+      const input = document.getElementById('searchInput');
+      if (!form || !input) return;
+      form.addEventListener('submit', (event) => {
+        const query = input.value.trim();
+        if (!query) {
+          event.preventDefault();
+          input.focus();
+        }
+      });
+    })();
+  </script>
+</body>
+</html>
